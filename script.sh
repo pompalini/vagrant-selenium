@@ -2,10 +2,15 @@
 #=========================================================
 
 #=========================================================
+echo "Installing previous version of Firefox..."
+#=========================================================
+sudo apt-get -y install firefox
+
+#=========================================================
 echo "Install the packages..."
 #=========================================================
 sudo apt-get update
-sudo apt-get -y install fluxbox xorg unzip vim default-jre rungetty firefox
+sudo apt-get -y install fluxbox xorg unzip vim default-jre rungetty
 
 #=========================================================
 echo "Set autologin for the Vagrant user..."
